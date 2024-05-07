@@ -161,3 +161,51 @@ title('Triangular Waveform');
 ```
 **Output :**
 
+**1.4.9. Discrete Unit Step Signal Input :**
+```matlab
+clear all;
+close all;
+t = -5:0.01:5;
+y(t>=0)=1;
+y(t<0)=0;
+stem(t,y);
+xlabel('Time');
+ylabel('Amplitude'); 
+title('Unit Step Signal'); 
+ ```
+ 
+**Output :**
+  
+ 
+ 
+**1.4.10. Discrete Unit Impulse ** 
+**Input :** 
+```matlab
+clear all;
+close all;
+t = -5:0.01:5;
+y(t==0)=1;
+y(t>0)=0;
+y(t<0)=0;
+stem(t,y);
+xlabel('Time');
+ylabel('Amplitude'); 
+title('Unit Impulse Signal');
+```
+ 
+**Output :** 
+  
+ 
+ 
+ 1.4.11. Discrete Ramp Signal Input : 
+clear all; close all; t = -5:0.01:5; ramp_signal = t .* (t >= 0); stem(t, ramp_signal, 'b', 'LineWidth', 2); xlabel('Time'); ylabel('Amplitude'); title('Ramp Signal'); 
+ 
+ 
+ 
+Output : 
+ 
+  
+ 
+
+
+
