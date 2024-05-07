@@ -43,6 +43,9 @@ title('Unit Step Signal');
 
 **Output :**
 
+![photo_2024-05-07_22-22-53](https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/afbd8c8c-4b65-4c9e-8d2b-61b43445a99a)
+
+
 **1.4.2. Unit Impulse :** 
 
 **Input :**
@@ -196,13 +199,18 @@ title('Unit Impulse Signal');
 **Output :** 
   
  
+**1.4.11. Discrete Ramp Signal Input :**
+```matlab
+clear all; 
+close all; 
+t = -5:0.01:5; ramp_signal = t .* (t >= 0); 
+stem(t, ramp_signal, 'b', 'LineWidth', 2); 
+xlabel('Time'); 
+ylabel('Amplitude'); 
+title('Ramp Signal'); 
+``` 
  
- 1.4.11. Discrete Ramp Signal Input : 
-clear all; close all; t = -5:0.01:5; ramp_signal = t .* (t >= 0); stem(t, ramp_signal, 'b', 'LineWidth', 2); xlabel('Time'); ylabel('Amplitude'); title('Ramp Signal'); 
- 
- 
- 
-Output : 
+**Output :**
  
   
  
