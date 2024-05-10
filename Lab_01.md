@@ -3,6 +3,7 @@
 **1.2. Experiment Name :** Forming graph of different types of signal using MATLAB.
 
 **1.3. Theory :**
+<p align="center">
 A signal is a source of information, generally a physical quantity, which varies with respect to time, space, temperature like any independent variable or A signal is a physical quantity that varies with time, space, or any other independent variable by which information can be conveyed. There are different types of signals. These are :
 	
 - **Unit step signal:** It often denoted as u(t), is essentially the output of the unit step function. It represents a signal that changes its value abruptly from zero to one at t=0, and remains at one for all 𝑡≥0.
@@ -21,7 +22,7 @@ A signal is a source of information, generally a physical quantity, which varies
   
 - **Triangular signal:** A triangular signal is a type of signal that varies linearly between two amplitude levels over time, forming a triangular shape when plotted against time.
 
-
+</p>
 
 **1.4. MATLAB Signal representation :**
 
