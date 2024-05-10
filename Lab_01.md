@@ -262,7 +262,7 @@ title('Ramp Signal');
 </p>
  
 
-**1.5. Theory :**
+**1.5. Discussion :**
 
 <p align="center">
 
