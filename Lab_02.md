@@ -114,12 +114,12 @@ title('Sample crosscorr');
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/7b45cc0d-49b6-4174-a5f0-38c4bea1ae37">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e74e33c3-bee7-4caf-b323-e4a245533226">
 </p>
 
 
 
-**2.5. Theory :**
+**2.5. Discussion :**
 
 <p align="center">
 
@@ -128,9 +128,9 @@ Time shifting, also known as time delay, refers to the process of shifting a sig
 
 Auto-correlation measures the similarity between a signal and a delayed version of itself as a function of the delay. It's essentially a measure of how much a signal correlates with a time-shifted version of itself. Here we use sine and cosine signal for the Auto-correlation.
 
-On the other hand, Cross-correlation measures the similarity between two different signals as a function of the delay between them. It tells us how much one signal resembles another signal at different points in time. Cross-correlation is extensively used in various fields, such as communications, where it helps in synchronizing signals in different channels, or in neuroscience, where it can be used to study the relationship between neural signals recorded from different brain regions.
+On the other hand, Cross-correlation measures the similarity between two different signals as a function of the delay between them. It tells us how much one signal resembles another signal at different points in time.  Here we also use sine and cosine signal for the Auto-correlation.
 
-In summary, time shifting, auto-correlation, and cross-correlation are powerful tools for analyzing signals and data in different domains, helping us understand patterns, relationships, and dynamics over time. Would you like to explore any specific applications or examples of these concepts?
+In summary, time shifting, auto-correlation, and cross-correlation are essential tools for analyzing signals and data in different domains, helping us understand patterns, relationships, and dynamics over time. 
 
 </p>
  
