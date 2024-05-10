@@ -1,4 +1,3 @@
-
 **2.1. Experiment No. :** 02
 
 **2.2. Experiment Name :** Forming time shifting,auto-correlation and cross-correlation of different types of signal using MATLAB.
@@ -84,13 +83,32 @@ title('Signum time Delayed Signal');
 **Input :**
 
 ```matlab
+clear all;
+close all;
+t=-5:.5:5;
+x1=sin(t);
+x2=10*cos(t);
 
+subplot(2,2,1);
+plot(t,x1);
+title('sin(t)');
+
+subplot(2,2,2);
+plot(t,x2);
+title('5cos(t)');
+
+subplot(2,2,3);
+autocorr(x1);
+title('Sample of autocorr');
+subplot(2,2,4);
+crosscorr(x1,x2);
+title('Sample crosscorr');
 ```
 
 **Output :**
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/7b45cc0d-49b6-4174-a5f0-38c4bea1ae37">
 </p>
 
 
