@@ -18,11 +18,11 @@ Course Title: Digital Signal Processing Sessional</br></br></br>
 </div>
 <div align="center">
 
-| Submitted to:   | Submitted by: |
+| Submitted To:   | Submitted By: |
 |-----------------|----------------|
 | Hafsa Binte Kibria | Md. Sajidur Rahman |
-| Lecturer, Dept. of ECE, RUET | Roll: 1910024 |
-|                    |  Year: 4th year (ODD) |         
+| Lecturer | Roll: 1910024 |
+| Dept. of ECE, RUET |  Year: 4th year (ODD) |         
 
 </div>
 
