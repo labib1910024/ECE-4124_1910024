@@ -173,8 +173,7 @@ title('Rectangular Function');
 **Output :**
 
 <p align="center">
-  <img src="")
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/a10e31ca-c2e3-4a84-bf12-b8cb453939f1">
 </p>
 
 **1.4.8. Triangular Signal : ** 
