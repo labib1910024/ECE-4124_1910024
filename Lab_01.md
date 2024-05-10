@@ -43,7 +43,10 @@ title('Unit Step Signal');
 
 **Output :**
 
-
+<p align="center">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/20a340a1-d37d-454c-aae0-29c4d2149937
+">
+</p>
 
 
 **1.4.2. Unit Impulse :** 
@@ -65,6 +68,11 @@ title('Unit Impulse Signal');
 
 **Output :**
 
+<p align="center">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c74fa2a2-a059-478f-8116-267121be6d0c
+">
+</p>
+
 **1.4.3. Ramp Signal :**
 
 **Input :**
@@ -80,6 +88,11 @@ title('Ramp Signal');
 ```
 
 **Output :**
+
+<p align="center">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/f102617e-8c5f-4a35-90f1-a5d45df454eb
+">
+</p>
 
 **1.4.4. Parabolic Signal :**
 
@@ -97,6 +110,12 @@ title('Parabolic Signal');
 
 **Output :**
 
+<p align="center">
+  <img src="")
+">
+</p>
+
+
 **1.4.5. Signum Function :**
 
 **Input :**
@@ -111,6 +130,12 @@ ylabel('Amplitude');
 title('Signum Function'); 
 ```
 **Output :**
+
+<p align="center">
+  <img src="")
+">
+</p>
+
 
 **1.4.6. Exponential Signal :**
 
@@ -130,6 +155,12 @@ title('Exponential Function');
 ```
 **Output :**
 
+<p align="center">
+  <img src="")
+">
+</p>
+
+
 **1.4.7. Rectangular Signal :**
 
 **Input :**
@@ -145,6 +176,11 @@ xlabel('Time'); ylabel('Amplitude');
 title('Rectangular Function'); 
 ```
 **Output :**
+
+<p align="center">
+  <img src="")
+">
+</p>
 
 **1.4.8. Triangular Signal : ** 
 
@@ -164,6 +200,12 @@ title('Triangular Waveform');
 ```
 **Output :**
 
+<p align="center">
+  <img src="")
+">
+</p>
+
+
 **1.4.9. Discrete Unit Step Signal Input :**
 ```matlab
 clear all;
@@ -179,7 +221,11 @@ title('Unit Step Signal');
  
 **Output :**
   
- 
+<p align="center">
+  <img src="")
+">
+</p>
+
  
 **1.4.10. Discrete Unit Impulse ** 
 **Input :** 
@@ -197,7 +243,11 @@ title('Unit Impulse Signal');
 ```
  
 **Output :** 
-  
+
+<p align="center">
+  <img src="")
+">
+</p>
  
 **1.4.11. Discrete Ramp Signal Input :**
 ```matlab
@@ -212,7 +262,10 @@ title('Ramp Signal');
  
 **Output :**
  
-  
+<p align="center">
+  <img src="")
+">
+</p>
  
 
 
