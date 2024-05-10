@@ -14,11 +14,11 @@ A signal is a source of information, generally a physical quantity, which varies
   
 - **Ramp signal:** A ramp signal is a type of signal in which the amplitude varies linearly with time. The value is equal to time when 𝑡≥0 and value is 0 when t<0.
   
-- **Parabolic signal:** A parabolic signal is a type of continuous-time signal whose amplitude varies quadratically with time. It represents the value (t^2)/2  when  𝑡≥0 and values are equal to 0 when t<0.
+- **Parabolic signal:** A parabolic signal is a type of continuous-time signal whose amplitude varies quadratically with time. It represents the value t<sup>2</sup>/2  when  𝑡≥0 and values are equal to 0 when t<0.
   
 - **Signum function:** The signum function, often denoted as sgn(𝑡) or sgn(𝑥), is a mathematical function that returns the sign of a real number 𝑥.
   
-- **Exponential function:** A exponential signal is a type of signal whose amplitude varies exponentially with time. It is expressed as: x(t)= e^αt
+- **Exponential function:** A exponential signal is a type of signal whose amplitude varies exponentially with time. It is expressed as: x(t)= e<sup>αt</sup>
   
 - **Rectangular signal:** It is also known as a square wave and is a type of signal that alternates between two constant amplitude levels over time. It is characterized by having equal durations of high and low states.
   
