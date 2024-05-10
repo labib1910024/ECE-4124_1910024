@@ -195,8 +195,7 @@ title('Triangular Waveform');
 **Output :**
 
 <p align="center">
-  <img src="")
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/ebf618a2-292a-4ecb-b0ee-6d8512386b40">
 </p>
 
 
@@ -216,8 +215,7 @@ title('Unit Step Signal');
 **Output :**
   
 <p align="center">
-  <img src="")
-">
+  <img src="!(https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/19fa585b-b26b-4a38-972d-c9126976dab7)">
 </p>
 
  
