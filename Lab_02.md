@@ -4,7 +4,7 @@
 
 **2.3. Theory :**
 
-<p align= "center">
+<p align="center">
   
 Time shifting :
 
@@ -16,7 +16,9 @@ Sometimes auto correlation is known as serial correlation in the discrete time c
 
 In signal processing, cross-correlation is a measure of similarity of two series as a function of the displacement of one relative to the other. This is also known as a sliding dot product or sliding inner-product. It is commonly used for searching a long signal for a shorter, known feature.
 
+
 </p>
+
 
 **2.4. MATLAB Signal representation :**
 
