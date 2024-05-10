@@ -47,8 +47,7 @@ title('Signum time Advanced Signal');
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c7788c8e-52ec-436c-bc19-9300ed183a5f")
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e222d5e7-42a5-4369-9737-cff53be46613">
 </p>
 
 
