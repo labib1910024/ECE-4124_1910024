@@ -1,7 +1,7 @@
 
 **2.1. Experiment No. :** 02
 
-**2.2. Experiment Name :** Forming time shifting,auto-correlation and cross-correlation of different types of signal.
+**2.2. Experiment Name :** Forming time shifting,auto-correlation and cross-correlation of different types of signal using MATLAB.
 
 **2.3. Theory :**
 
