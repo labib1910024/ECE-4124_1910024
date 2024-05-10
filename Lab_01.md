@@ -262,5 +262,8 @@ title('Ramp Signal');
 </p>
  
 
+**1.5. Theory :**
 
+<p align="center">
 
+Forming signals in MATLAB is a fundamental aspect of signal processing and communications. MATLAB offers a wide range of functions and tools to create signals of different types, such as sine waves, square waves, triangular waves, impulse signals, and more. Here we use the condition and sometime use the functions for creating a signal. By using  sign() function , exp() function , sawtooth() function 
