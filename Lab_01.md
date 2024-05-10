@@ -44,8 +44,7 @@ title('Unit Step Signal');
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/20a340a1-d37d-454c-aae0-29c4d2149937
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/20a340a1-d37d-454c-aae0-29c4d2149937">
 </p>
 
 
@@ -69,8 +68,7 @@ title('Unit Impulse Signal');
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c74fa2a2-a059-478f-8116-267121be6d0c
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c74fa2a2-a059-478f-8116-267121be6d0c">
 </p>
 
 **1.4.3. Ramp Signal :**
@@ -90,8 +88,7 @@ title('Ramp Signal');
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/f102617e-8c5f-4a35-90f1-a5d45df454eb
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/f102617e-8c5f-4a35-90f1-a5d45df454eb">
 </p>
 
 **1.4.4. Parabolic Signal :**
@@ -111,7 +108,7 @@ title('Parabolic Signal');
 **Output :**
 
 <p align="center">
-  <img src="")
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e588f766-2bed-454f-a8c5-e422f5ca52f6">
 ">
 </p>
 
@@ -132,8 +129,7 @@ title('Signum Function');
 **Output :**
 
 <p align="center">
-  <img src="")
-">
+  <img src="!https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/d341e3a0-4a9f-4465-beb7-f225b378f378">
 </p>
 
 
@@ -156,8 +152,7 @@ title('Exponential Function');
 **Output :**
 
 <p align="center">
-  <img src="")
-">
+  <img src="![image](https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/085e7a4e-dbba-46c8-b29e-bf2f87de5a26">
 </p>
 
 
