@@ -36,7 +36,7 @@ Course Title: Digital Signal Processing Sessional</br></br></br>
 
 |Serial No.|Title|Report No.|
 |------------|----------------|----------|
-|01.|Forming graph of different types of signal|[Report-01](https://github.com/RTurjo/ECE-4124-Digital-Signal-Processing-Sessional/blob/main/Report_01.md)|
-|02.|Study of different types of Signals and time-shifting properties using MATLAB|[Report-02](https://github.com/RTurjo/ECE-4124-1910026/blob/main/Report_02.md)|
+|01.|Forming graph of different types of signal|[Lab Report-01](https://github.com/RTurjo/ECE-4124-Digital-Signal-Processing-Sessional/blob/main/Report_01.md)|
+|02.|Forming time shifting,auto-correlation and cross-correlation of different types of signal.|[Lab Report-02](https://github.com/RTurjo/ECE-4124-1910026/blob/main/Report_02.md)|
 </div>
 
