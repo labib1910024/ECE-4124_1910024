@@ -109,7 +109,7 @@ title('Parabolic Signal');
 
 <p align="center">
   <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e588f766-2bed-454f-a8c5-e422f5ca52f6">
-">
+
 </p>
 
 
@@ -129,7 +129,7 @@ title('Signum Function');
 **Output :**
 
 <p align="center">
-  <img src="!https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/d341e3a0-4a9f-4465-beb7-f225b378f378">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/d341e3a0-4a9f-4465-beb7-f225b378f378">
 </p>
 
 
@@ -152,7 +152,7 @@ title('Exponential Function');
 **Output :**
 
 <p align="center">
-  <img src="![image](https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/085e7a4e-dbba-46c8-b29e-bf2f87de5a26">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/085e7a4e-dbba-46c8-b29e-bf2f87de5a26">
 </p>
 
 
