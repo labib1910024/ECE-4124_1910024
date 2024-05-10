@@ -4,7 +4,7 @@
 
 **2.3. Theory :**
 
-<p align="center">
+<p align= "center">
   
 Time shifting :
 
