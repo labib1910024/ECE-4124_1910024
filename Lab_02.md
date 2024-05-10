@@ -22,9 +22,28 @@ In signal processing, cross-correlation is a measure of similarity of two series
 **Input :**
 
 ```matlab
+clear all;
+close all;
+t1=-10;
+t2=10;
+N=5;
+t=t1:t2;
+y(t-N>0)=1;
+y(t-N==0)=0;
+y(t-N<0)=-1;
+
+stem(t,y,'b','Linewidth',3);
+xlabel('time');
+ylabel('Amplitude');
+title('Signum time Advanced Signal');
+
 ```
 
 **Output :**
+
+<p align="center">
+  <img src="">
+</p>
 
 
 
@@ -34,10 +53,27 @@ In signal processing, cross-correlation is a measure of similarity of two series
 **Input :**
 
 ```matlab
+clear all;
+close all;
+t1=-10;
+t2=10;
+N=-5;
+t=t1:t2;
+y(t-N>0)=1;
+y(t-N==0)=0;
+y(t-N<0)=-1;
 
+stem(t,y,'b','Linewidth',3);
+xlabel('time');
+ylabel('Amplitude');
+title('Signum time Delayed Signal');
 ```
 
 **Output :**
+
+<p align="center">
+  <img src="">
+</p>
 
 
 
@@ -50,6 +86,10 @@ In signal processing, cross-correlation is a measure of similarity of two series
 ```
 
 **Output :**
+
+<p align="center">
+  <img src="">
+</p>
 
 
   
