@@ -123,7 +123,14 @@ title('Sample crosscorr');
 
 <p align="center">
 
-Forming signals in MATLAB is a fundamental aspect of signal processing and communications. MATLAB offers a wide range of functions and tools to create signals of different types, such as sine waves, square waves, triangular waves, impulse signals, and more. Here we use the condition and sometime use the functions for creating a signal. By using  sign() function , exp() function , sawtooth() function  for creating different types of sihnal such as : signum , exponential , sawtooth or triangular signal etc. Here we creating these signal respect to time .  With out using these default fuctions we can form themselves by using userdefined function and creating signals using various conditions on them.
+Time shifting, auto-correlation, and cross-correlation are fundamental concepts in signal processing, widely used in various fields.
+Time shifting, also known as time delay, refers to the process of shifting a signal in time. It's like moving the entire waveform along the time axis. This can be done by adding or subtracting a constant value to the time variable. Time shifting is often used to align signals or to study the effects of time delays in systems. For instance, in audio processing, time shifting can be used to synchronize multiple audio tracks. Here we use signum function for advancing and delaying the signal. We use user defined function and give some conditions on them , here we use the valude = 5 for advancing and delaying the signal.
+
+Auto-correlation measures the similarity between a signal and a delayed version of itself as a function of the delay. It's essentially a measure of how much a signal correlates with a time-shifted version of itself. Here we use sine and cosine signal for the Auto-correlation.
+
+On the other hand, Cross-correlation measures the similarity between two different signals as a function of the delay between them. It tells us how much one signal resembles another signal at different points in time. Cross-correlation is extensively used in various fields, such as communications, where it helps in synchronizing signals in different channels, or in neuroscience, where it can be used to study the relationship between neural signals recorded from different brain regions.
+
+In summary, time shifting, auto-correlation, and cross-correlation are powerful tools for analyzing signals and data in different domains, helping us understand patterns, relationships, and dynamics over time. Would you like to explore any specific applications or examples of these concepts?
 
 </p>
  
