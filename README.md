@@ -37,6 +37,6 @@ Course Title: Digital Signal Processing Sessional</br></br></br>
 |Serial No.|Title|Report No.|
 |------------|----------------|----------|
 |01.|Forming graph of different types of signal|[Lab Report-01](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_01.md)|
-|02.|Forming time shifting,auto-correlation and cross-correlation of different types of signal.|[Lab Report-02]()|
+|02.|Forming time shifting,auto-correlation and cross-correlation of different types of signal.|[Lab Report-02](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_02.md)|
 </div>
 
