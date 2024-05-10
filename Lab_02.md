@@ -72,7 +72,8 @@ title('Signum time Delayed Signal');
 **Output :**
 
 <p align="center">
-  <img src="">
+  
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/5e364144-6941-4a1a-beee-a6e2d62c7a4f">
 </p>
 
 
