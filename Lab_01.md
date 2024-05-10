@@ -215,7 +215,7 @@ title('Unit Step Signal');
 **Output :**
   
 <p align="center">
-  <img src="!(https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/19fa585b-b26b-4a38-972d-c9126976dab7)">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/19fa585b-b26b-4a38-972d-c9126976dab7">
 </p>
 
  
@@ -237,8 +237,7 @@ title('Unit Impulse Signal');
 **Output :** 
 
 <p align="center">
-  <img src="")
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/56b2433c-ea23-4a66-ac17-022fbc2c7ef2">
 </p>
  
 **1.4.11. Discrete Ramp Signal Input :**
@@ -255,8 +254,7 @@ title('Ramp Signal');
 **Output :**
  
 <p align="center">
-  <img src="")
-">
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/77321cef-cd49-4427-83b3-8f1c082d6915">
 </p>
  
 
