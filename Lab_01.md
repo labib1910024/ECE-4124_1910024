@@ -1,6 +1,6 @@
 **1.1. Experiment No. :** 01
 
-**1.2. Experiment Name :** Forming graph of different types of signal.
+**1.2. Experiment Name :** Forming graph of different types of signal using MATLAB.
 
 **1.3. Theory :**
 A signal is a source of information, generally a physical quantity, which varies with respect to time, space, temperature like any independent variable or A signal is a physical quantity that varies with time, space, or any other independent variable by which information can be conveyed. There are different types of signals. These are :
