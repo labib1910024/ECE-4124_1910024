@@ -1,6 +1,6 @@
 **3.1. Experiment No. :** 03
 
-**3.2. Experiment Name :** Forming time shifting,auto-correlation and cross-correlation of different types of signal using MATLAB.
+**3.2. Experiment Name :** Convulation and Cross correlation with function and tebular format using MATLAB.
 
 **3.3. Theory :**
 
@@ -84,7 +84,7 @@ grid on;
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c47db7bc-90a0-46ee-9ad7-c3f94341bb2c"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c47db7bc-90a0-46ee-9ad7-c3f94341bb2c" height="400px" width="600px"/>
 </p>
 
 
@@ -155,7 +155,7 @@ title('Cross corelation with function');
 
 <p align="center">
  
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/9a2da5e4-42aa-4483-9c5b-e6db42684f93"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/9a2da5e4-42aa-4483-9c5b-e6db42684f93" height="400px" width="600px"/>
 </p>
 
 
