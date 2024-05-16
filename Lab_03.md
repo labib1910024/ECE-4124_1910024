@@ -21,7 +21,7 @@ In signal processing, cross-correlation is a measure of similarity of two series
 
 **3.4. MATLAB Signal representation :**
 
-**3.4.1. Advancing of Signal :**
+**3.4.1. Convulated Signal :**
 
 **Input :**
 
@@ -96,7 +96,7 @@ grid on;
 
 
 
-**3.4.2. Delaying of Signal :** 
+**3.4.2. Cross correlation of Signal :** 
 
 **Input :**
 
@@ -171,7 +171,12 @@ title('Cross corelation with function');
 **3.5. Discussion :**
 
 <p align="center">
- Here for convulation process we use the 
+ Here for convulation process we use the deagault function.
+  
+ ```matlab
+  conv()
+
+```
  
 
 </p>
