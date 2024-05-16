@@ -6,8 +6,10 @@
 
 <p align="center">
   
-Time shifting :
+Convulation :
+Convolution is a mathematical way of combining two signals to form a third signal. It is the single most important technique in Digital Signal Processing. Using the strategy of impulse decomposition, systems are described by a signal called the impulse response. By using matlab we can do it in two ways. Such as : Function & Tabular Format. Here is a default function in MATLAB for convulation. 
 
+Cross correlation :
 
 
 </p>
