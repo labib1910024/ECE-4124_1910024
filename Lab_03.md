@@ -1,8 +1,8 @@
 **3.1. Experiment No. :** 03
 
-**2.2. Experiment Name :** Forming time shifting,auto-correlation and cross-correlation of different types of signal using MATLAB.
+**3.2. Experiment Name :** Forming time shifting,auto-correlation and cross-correlation of different types of signal using MATLAB.
 
-**2.3. Theory :**
+**3.3. Theory :**
 
 <p align="center">
   
@@ -13,9 +13,9 @@ Time shifting :
 </p>
 
 
-**2.4. MATLAB Signal representation :**
+**3.4. MATLAB Signal representation :**
 
-**2.4.1. Advancing of Signal :**
+**3.4.1. Advancing of Signal :**
 
 **Input :**
 
@@ -90,7 +90,7 @@ grid on;
 
 
 
-**2.4.2. Delaying of Signal :** 
+**3.4.2. Delaying of Signal :** 
 
 **Input :**
 
@@ -162,7 +162,7 @@ title('Cross corelation with function');
 
 
 
-**2.5. Discussion :**
+**3.5. Discussion :**
 
 <p align="center">
 
