@@ -171,13 +171,38 @@ title('Cross corelation with function');
 **3.5. Discussion :**
 
 <p align="center">
- Here for convulation process we use the deagault function.
+  
+ Here for convulation process we use the default function.
   
  ```matlab
-  conv()
+  conv();
+
+```
+ In tabular format by using above method we can get the same signal as the using signal of function. Here the number of values in new array is :
+ 
+ summation the number of values in two arrays -1;
+
+ We get the same signal in  two different format.
+
+
+ For cross correlation process we use the default function.
+  
+ ```matlab
+  xcorr();
+
+```
+ In tabular format by using above method we can get the same signal as the using signal of function. At first we flip the any array :
+
+ ```matlab
+
+y=[1 -1 1 1 -1];
+y1= flip(y);
+
 
 ```
  
+ 
+ And then following the same process as the covulation by using the inverse signal. We get the same signal in  two different format.
 
 </p>
  
