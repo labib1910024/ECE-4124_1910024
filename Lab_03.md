@@ -6,7 +6,7 @@
 
 <p align="center">
   
-Convulation :
+Convolution :
 Convolution is a mathematical way of combining two signals to form a third signal. It is the single most important technique in Digital Signal Processing. Using the strategy of impulse decomposition, systems are described by a signal called the impulse response. By using matlab we can do it in two ways. Such as : Function & Tabular Format. Here is a default function in MATLAB for convulation. If there is two  array and they are distributed in two sides of the table and multiply them am add them as like as the below figure.
 <p align="center">
   <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/f16c0d28-e27b-4fed-b450-b466ac56ebe0" height="200px" width="400px"/>
