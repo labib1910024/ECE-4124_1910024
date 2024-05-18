@@ -26,7 +26,7 @@ In signal processing, cross-correlation is a measure of similarity of two series
 **Input :**
 
 ```matlab
-%% convulated signal with tebulated method & function
+%% convoluted signal with tebulated method & function
 
 clc
 clear all;
@@ -75,14 +75,14 @@ subplot(4,1,3)
 stem(con_sig);
 xlabel('Time');
 ylabel('Amplitude');
-title('Convulation with tabular format');
+title('Convolution with tabular format');
 grid on;
 
 subplot(4,1,4);
 stem(n2,z);
 xlabel('Time');
 ylabel('Amplitude');
-title('Convulation with function');
+title('Convolution with function');
 grid on;
 
 ```
@@ -172,7 +172,7 @@ title('Cross corelation with function');
 
 <p align="center">
   
- Here for convulation process we use the default function.
+ Here for convolution process we use the default function.
   
  ```matlab
   conv();
