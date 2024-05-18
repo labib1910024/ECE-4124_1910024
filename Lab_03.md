@@ -1,6 +1,6 @@
 **3.1. Experiment No. :** 03
 
-**3.2. Experiment Name :** Convulation and Cross correlation with function and tebular format using MATLAB.
+**3.2. Experiment Name :** Convolution and Cross correlation with function and tebular format using MATLAB.
 
 **3.3. Theory :**
 
