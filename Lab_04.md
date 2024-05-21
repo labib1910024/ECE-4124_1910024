@@ -1,11 +1,14 @@
-**4.1. Experiment No. :** 03
+**4.1. Experiment No. :** 04
 
 **4.2. Experiment Name :** Graphical representation of sampling, quantization using MATLAB.
 
 **4.3. Theory :**
 
 <p align="center">
-
+  
+Sampling :
+  
+To convert a signal from continuous time to discrete time, a process called sampling is used. The value of the signal is measured at certain intervals in time. Each measurement is referred to as a sample. (The analog signal is also quantized in amplitude, but that process is ignored in this demonstration.
 
 </p>
 
