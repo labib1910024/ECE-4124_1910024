@@ -12,25 +12,31 @@
 
 **4.4. MATLAB Signal representation :**
 
-**4.4.1. Convulated Signal :**
+**4.4.1. Sampling of a Signal :**
 
 **Input :**
 
 ```matlab
-
+%% sampling
+t= 0:0.1:10;
+y = sin(t);
+stem(t, y);
+xlabel('Time');
+ylabel('Amplitude');
+title('Sin Signal');
+grid on;
 
 ```
 
 **Output :**
 
 <p align="center">
-  <img src="" height="400px" width="600px"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e5308025-54fe-4d8d-a1c7-bbfc51e76ce8" height="400px" width="600px"/>
 </p>
 
 
 
-
-**4.4.2. Cross correlation of Signal :** 
+**4.4.2.  Signal :** 
 
 **Input :**
 
@@ -46,6 +52,41 @@
 </p>
 
 
+
+**4.4.3. Quantization of a Signal :** 
+
+**Input :**
+
+```matlab
+%% Quantization
+t = 0:0.1:10;
+y = sin(t);
+stem(t, y);
+xlabel('Time');
+ylabel('Amplitude');
+title('Sin Signal');
+grid on;
+
+num_bits = 4;
+
+
+max_val = max(y);
+min_val = min(y);
+step_size = (max_val - min_val) / (2^num_bits); %formula
+quantized_y = round(y / step_size) * step_size;
+
+
+hold on;
+plot(t, quantized_y, 'r', 'LineWidth', 1);
+legend('Original Signal', 'Quantized Signal');
+```
+
+**Output :**
+
+<p align="center">
+ 
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e8cc6313-d1b6-434b-960c-f92590ad5c9a" height="400px" width="600px"/>
+</p>
 
 
 
