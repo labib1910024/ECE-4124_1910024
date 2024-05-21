@@ -22,7 +22,9 @@ Quantization in mathematics and digital signal processing, is the process of map
 <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/13a8b5eb-c3b4-42c7-aa3e-ca438465ba5c" height="400px" width="600px"/>
 </p>
 
+Encoding
 
+Signal encoding is the conversion from analog/digital data to analog / digital signal. In order to receive the signals correctly, the receivers bit intervals must correspond exactly to the senders bit intervals. The clock frequency of the transmitter and receiver should be the same.
 </p>
 
 
