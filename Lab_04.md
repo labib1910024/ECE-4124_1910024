@@ -8,7 +8,18 @@
   
 Sampling :
   
-To convert a signal from continuous time to discrete time, a process called sampling is used. The value of the signal is measured at certain intervals in time. Each measurement is referred to as a sample. (The analog signal is also quantized in amplitude, but that process is ignored in this demonstration.
+To convert a signal from continuous time to discrete time, a process called sampling is used. The value of the signal is measured at certain intervals in time. Each measurement is referred to as a sample. The analog signal is also quantized in amplitude, but that process is ignored in this demonstration.
+
+<img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/ea2053eb-0f1d-46ce-a43c-4f0ae95d71ed" height="400px" width="600px"/>
+
+
+Quantization:
+
+Quantization in mathematics and digital signal processing, is the process of mapping input values from a large set to output values in a smaller set, often with a finite number of elements.
+
+<img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/13a8b5eb-c3b4-42c7-aa3e-ca438465ba5c" height="400px" width="600px"/>
+
+
 
 </p>
 
