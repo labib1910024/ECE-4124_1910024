@@ -1,6 +1,6 @@
 **4.1. Experiment No. :** 03
 
-**4.2. Experiment Name :** Convolution and Cross correlation with function and tebular format using MATLAB.
+**4.2. Experiment Name :** Graphical representation of sampling, quantization using MATLAB.
 
 **4.3. Theory :**
 
