@@ -85,9 +85,8 @@ legend('Original Signal', 'Quantized Signal');
 
 <p align="center">
  
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e8cc6313-d1b6-434b-960c-f92590ad5c9a" height="400px" width="600px"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/f5efc8b3-bbf5-4862-93ca-a8ce50790600" height="400px" width="600px"/>
 </p>
-
 
 
 **4.5. Discussion :**
