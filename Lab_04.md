@@ -166,7 +166,16 @@ plot(t, quantized_y, 'r', 'LineWidth', 1.5);
 
 <p align="center">
   
+ Here a signal is sampled in two ways. By using the stem function it is easy to plot at.
  
+ ```matlab
+
+stem()
+
+```
+The sampling frequency or sampling rate s_rate = 100 is the average number of samples obtained in one second that means samples per second thus s_period = 1 / s_rate. Then stem() function and plot is used to represent the graphical view. 
+
+
 
 </p>
  
