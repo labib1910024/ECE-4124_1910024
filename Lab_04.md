@@ -59,6 +59,37 @@ grid on;
 **Input :**
 
 ```matlab
+clear all;
+close all;
+
+f = 5; 
+s_rate = 100; 
+s_period = 1 / s_rate; 
+max_time = 1; 
+
+t_cont = linspace(0, max_time, 1000); 
+t_sampled = 0:s_period:max_time;
+
+
+s_cont = sin(2 * pi * f * t_cont); 
+s_sampled = sin(2 * pi * f * t_sampled);
+
+
+% Continuous signal
+subplot(2, 1, 1); 
+plot(t_cont, s_cont, 'b', 'LineWidth',2);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Continuous Signal');
+grid on;
+
+% Sampled signal
+subplot(2, 1, 2); 
+stem(t_sampled, s_sampled, 'r', 'LineWidth',2);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Sampled Signal');
+grid on;
 
 ```
 
@@ -66,7 +97,8 @@ grid on;
 
 <p align="center">
  
-  <img src="" height="400px" width="600px"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/565efa93-19dc-4f75-9a64-45d3a7b76f9f" height="400px" width="600px"/>
+
 </p>
 
 
