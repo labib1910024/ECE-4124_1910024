@@ -36,12 +36,21 @@ Signal encoding is the conversion from analog/digital data to analog / digital s
 
 ```matlab
 %% sampling
-t= 0:0.1:10;
-y = sin(t);
-stem(t, y);
+t= 0:0.1:30;
+y = 10* sin(t);
+
+subplot(2,1,1);
+plot(t, y,'b');
 xlabel('Time');
 ylabel('Amplitude');
 title('Sin Signal');
+grid on;
+
+subplot(2,1,2);
+stem(t, y,'r');
+xlabel('Time');
+ylabel('Amplitude');
+title('Sampled Signal');
 grid on;
 
 ```
@@ -49,7 +58,8 @@ grid on;
 **Output :**
 
 <p align="center">
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/e5308025-54fe-4d8d-a1c7-bbfc51e76ce8" height="400px" width="600px"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/0f27298c-cddd-4882-a5f6-c18a6bafcbf9" height="400px" width="600px"/>
+
 </p>
 
 
@@ -108,34 +118,47 @@ grid on;
 **Input :**
 
 ```matlab
-%% Quantization
-t = 0:0.1:10;
-y = sin(t);
-stem(t, y);
+clear all;
+close all;
+t = 0:0.1:15; 
+y = 10 * sin(t);
+
+
+
+subplot(2, 1, 1);
+plot(t, y, 'b');
 xlabel('Time');
 ylabel('Amplitude');
-title('Sin Signal');
+title('Sine Signal');
 grid on;
 
-num_bits = 4;
 
-
+n = 4;
 max_val = max(y);
 min_val = min(y);
-step_size = (max_val - min_val) / (2^num_bits); %formula
-quantized_y = round(y / step_size) * step_size;
+step_size = (max_val - min_val) / 2^n;
+
+% Quantize the signal
+quantized_y = round((y - min_val) / step_size) * step_size + min_val;
 
 
+subplot(2, 1, 2);
+stem(t, y, 'b');
+xlabel('Time');
+ylabel('Amplitude');
+title('Quantized Signal');
+grid on;
 hold on;
-plot(t, quantized_y, 'r', 'LineWidth', 1);
-legend('Original Signal', 'Quantized Signal');
+plot(t, quantized_y, 'r', 'LineWidth', 1.5);
+
 ```
 
 **Output :**
 
 <p align="center">
  
-  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/f5efc8b3-bbf5-4862-93ca-a8ce50790600" height="400px" width="600px"/>
+  <img src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/b9295453-ef0c-4f52-9c3c-1aaf0f55c56d" height="400px" width="600px"/>
+ 
 </p>
 
 
