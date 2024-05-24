@@ -175,7 +175,7 @@ stem()
 ```
 The sampling frequency or sampling rate s_rate = 100 is the average number of samples obtained in one second that means samples per second thus s_period = 1 / s_rate. Then stem() function and plot is used to represent the graphical view. 
 
-There is a formula for quantization of signal. Here number of bits = 4 .
+There is a formula for quantization of signal. Here number of bits = 4 . Here is the formula:
 
 ```matlab
 
@@ -183,13 +183,8 @@ n = 4;
 max_val = max(y);
 min_val = min(y);
 step_size = (max_val - min_val) / 2^n;
-
-% Quantize the signal
 quantized_y = round((y - min_val) / step_size) * step_size + min_val;
-
-
-
-``
+```
 
 </p>
  
