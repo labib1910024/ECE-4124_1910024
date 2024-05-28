@@ -4,7 +4,7 @@
 
 **4.3. Theory :**
 
-<p align="center">
+<p align="justify">
   
 Sampling :
   
@@ -164,7 +164,7 @@ plot(t, quantized_y, 'r', 'LineWidth', 1.5);
 
 **4.5. Discussion :**
 
-<p align="center">
+<p align="justify">
   
  Here a signal is sampled in two ways. By using the stem function it is easy to plot at.
  
