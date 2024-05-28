@@ -40,7 +40,7 @@ Course Title: Digital Signal Processing Sessional</br></br></br>
 |02.|Forming time shifting,auto-correlation and cross-correlation of different types of signal using MATLAB.|[Lab Report-02](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_02.md)|
 |03.|Convolution and Cross-correlation with function and tebular format using MATLAB.|[Lab Report-03](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_03.md)|
 |04.|Graphical representation of sampling, quantization using MATLAB.|[Lab Report-04](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_04.md)|
-|05.|.Graphical representation of Z- transform ,poles and zeros by using MATLAB.|[Lab Report-05](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_05.md)|
+|05.|Graphical representation of Z- transform ,poles and zeros by using MATLAB.|[Lab Report-05](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_05.md)|
 
 
 
