@@ -14,9 +14,9 @@ In mathematics and signal processing, the Z-transform converts a discrete-time s
 
 
 
-**5.4. MATLAB Signal representation :**
+**5.4. MATLAB Z-Transform representation :**
 
-**5.4.1. Sampling of a Signal :**
+**5.4.1. Z-Transform of a Signal :**
 
 **Input :**
 
@@ -42,7 +42,7 @@ disp(vpa(x_z,5));
 
 
 
-**5.4.2.  Signal :** 
+**5.4.2. Z-Transform of a Signal at any index position :** 
 
 **Input :**
 
@@ -75,7 +75,7 @@ disp(vpa(x_z,5));
 
 
 
-**5.4.3. Quantization of a Signal :** 
+**5.4.3. Poles and Zeros of Z-Transform :** 
 
 **Input :**
 
@@ -129,7 +129,7 @@ disp(vpa(poles, 5));
 
 **5.5. Discussion :**
 
-<p align="justify">
+<p text-align="justify">
   
 
 
