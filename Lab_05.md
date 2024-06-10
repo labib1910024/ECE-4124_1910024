@@ -19,6 +19,14 @@
 **Input :**
 
 ```matlab
+clc;
+clear all;
+close all;
+x = [1,2,5,7,0,1];
+syms z
+n= 0:length(x)-1;
+x_z = sum(x .* z.^(-n));
+disp(vpa(x_z,5));
 
 ```
 
@@ -37,10 +45,21 @@
 **Input :**
 
 ```matlab
+clc;
+clear all;
+close all;
+x = [1,2,5,7,0,1];
+z_i = input('Enter :');
+z_index = z_i + 1;
+syms z
+x_z = 0;
+N = length(x);
 
-
-
-
+for i= 1:N
+    x_z = x_z + x(i) *z^(-(i-z_index));
+end
+ 
+disp(vpa(x_z,5));
 
 ```
 
@@ -59,6 +78,40 @@
 **Input :**
 
 ```matlab
+clc;
+clear all;
+close all;
+
+% Data
+x = [1, 2, 5, 7, 0, 1];
+
+
+z_i = input('Enter :');
+z_index = z_i + 1;
+
+
+syms z
+x_z = 0;
+N = length(x);
+
+
+for i = 1:N
+    x_z = x_z + x(i) * z^(-(i - z_index));
+end
+
+disp('Z-transform:');
+disp(vpa(x_z, 5));
+
+
+[num, den] = numden(x_z); % Get numerator and denominator
+zeros = solve(num == 0, z); % Find zeros by solving num == 0
+poles = solve(den == 0, z); % Find poles by solving den == 0
+
+disp('Zeros:');
+disp(vpa(zeros, 5));
+
+disp('Poles:');
+disp(vpa(poles, 5));
 
 
 ```
