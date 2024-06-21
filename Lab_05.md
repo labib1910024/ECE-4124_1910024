@@ -1,7 +1,7 @@
 
 **5.1. Experiment No. :** 05
 
-**5.2. Experiment Name :** Graphical representation of Z- transform ,poles and zeros by using MATLAB.
+**5.2. Experiment Name :**  Z- transform ,poles and zeros by using MATLAB.
 
 **5.3. Theory :**
 
