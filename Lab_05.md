@@ -73,8 +73,8 @@ disp(vpa(x_z,5));
 **Output :**
 
 <p align="center">
- 
-  <img src="" height="400px" width="600px"/>
+  <img width="253" alt="image" src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/652818ab-092c-48ec-bff7-77b3a229b483">
+
 
 </p>
 
