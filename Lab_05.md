@@ -127,7 +127,9 @@ disp(vpa(poles, 5));
 
 <p align="center">
  
-  <img src="" height="400px" width="600px"/>
+  
+  <img width="269" alt="image" src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/7ff58110-3da1-4ef7-8bdf-aed459f8e222">
+
  
 </p>
 
