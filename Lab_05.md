@@ -40,7 +40,7 @@ disp(vpa(x_z,5));
 <p align="center">
 
  
- <img height="400px" width="600px" alt="image" src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c6bab633-f689-4638-8fec-fa01596b416d">
+ <img height="400px" width="200px" alt="image" src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/c6bab633-f689-4638-8fec-fa01596b416d">
 
 
 </p>
