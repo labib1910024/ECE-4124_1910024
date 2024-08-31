@@ -138,7 +138,7 @@ disp(vpa(poles, 5));
 
 <p text-align="justify">
 
- Here 
+ Here we use the following formula to determine the z-transform of the signal and vpa(x_z,5) converts the result of the Z-transform to a numeric form with 5 significant digits. After that the code is user define to find out the index and the zeroth position ,and then find out the poles and zeros by the allowed formula
 
 
 </p>
