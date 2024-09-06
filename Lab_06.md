@@ -1,7 +1,7 @@
 
 **6.1. Experiment No. :** 06
 
-**6.2. Experiment Name :**  Z- transform ,poles and zeros by using MATLAB.
+**6.2. Experiment Name :**  Z- transform ,inverse transform , poles and zeros by using MATLAB.
 
 **6.3. Theory :**
 
@@ -95,8 +95,9 @@ disp(vpa(x_z, 5));
 **Output :**
 
 <p align="center">
-  <img width="253" alt="image" src="github.com/user-attachments/assets/287fd9f8-89a9-4331-aa61-05c7999fa210">
+  <img width="253" alt="image" src"https://github.com/user-attachments/assets/5de6bc97-8ab8-4f12-991d-d0152c39b424">
  
+![image]()
 
 </p>
 
@@ -107,7 +108,66 @@ disp(vpa(x_z, 5));
 **Input :**
 
 ```matlab
+clc;
+clear all;
+close all;
 
+% Data
+x = [1, 2, 5, 7, 0, 1];
+
+% User input for Z-transform index
+z_i = input('Enter the starting index (e.g., -2, -1, 0, etc.): ');
+z_index = z_i + 1;
+
+syms z
+x_z = 0;
+N = length(x);
+
+% Compute the Z-transform
+for i = 1:N
+    x_z = x_z + x(i) * z^(-(i - z_index));
+end
+
+% Display the Z-transform
+disp('Z-transform:');
+disp(vpa(x_z, 5));
+
+% Get numerator and denominator of the Z-transform expression
+[num, den] = numden(x_z);
+
+% Find zeros and poles
+zeros = solve(num == 0, z);
+poles = solve(den == 0, z);
+
+% Display zeros and poles
+disp('Zeros:');
+disp(vpa(zeros, 5));
+
+disp('Poles:');
+disp(vpa(poles, 5));
+
+% Plotting
+figure;
+hold on;
+
+% Plot zeros with red circles
+for k = 1:length(zeros)
+    plot(real(zeros(k)), imag(zeros(k)), 'ro', 'MarkerSize', 10, 'LineWidth', 2);
+end
+
+% Plot poles with blue crosses
+for k = 1:length(poles)
+    plot(real(poles(k)), imag(poles(k)), 'bx', 'MarkerSize', 10, 'LineWidth', 2);
+end
+
+% Formatting the plot
+title('Poles and Zeros Plot');
+xlabel('Real Part');
+ylabel('Imaginary Part');
+axis equal; % Ensures equal scaling for both axes
+grid on;
+legend('Zeros', 'Poles');
+hold off;
 
 ```
 
@@ -116,9 +176,16 @@ disp(vpa(x_z, 5));
 <p align="center">
  
   
-  <img width="269" alt="image" src="https://github.com/labib1910024/ECE-4124_1910024/assets/87533597/7ff58110-3da1-4ef7-8bdf-aed459f8e222">
+  <img width="269" alt="image" src="https://github.com/user-attachments/assets/2bcb7c0a-d28c-4667-b105-f155fd7f0a35">
 
+</p>
+
+<p align="center">
  
+  
+  <img width="269" alt="image" src="https://github.com/user-attachments/assets/325609f0-6f29-4c02-922c-2d1e76488127">
+
+
 </p>
 
 
