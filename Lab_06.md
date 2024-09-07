@@ -95,8 +95,7 @@ disp(vpa(x_z, 5));
 **Output :**
 
 <p align="center">
-  <img width="253" alt="image" src"https://github.com/user-attachments/assets/5de6bc97-8ab8-4f12-991d-d0152c39b424">
-
+  <img width="253" alt="image" src"https://github.com/user-attachments/assets/27f91fea-26c4-4a4b-8ca8-f7d43d0f0073">
 
 </p>
 
