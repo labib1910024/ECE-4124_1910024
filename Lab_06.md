@@ -96,8 +96,7 @@ disp(vpa(x_z, 5));
 
 <p align="center">
   <img width="253" alt="image" src"https://github.com/user-attachments/assets/5de6bc97-8ab8-4f12-991d-d0152c39b424">
- 
-![image]()
+
 
 </p>
 
