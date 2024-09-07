@@ -10,6 +10,9 @@
 Z- Transform : 
 In mathematics and signal processing, the Z-transform converts a discrete-time signal, which is a sequence of real or complex numbers, into a complex valued frequency-domain (the z-domain or z-plane) representation. It can be considered a discrete-time equivalent of the Laplace transform. The formula is X(z) = Σ x|n|z⁻ⁿ.
 
+The inverse Z-transform :
+It is used to convert a function in the Z-domain back into the time domain discrete sequence. It essentially reconstructs the original discrete-time signal from its Z-transform representation.
+
 Poles and Zeros :
 The values of z for which H(z) = 0 are called the zeros of H(z), and the values of z for which H(z) has value are referred to as the poles of H(z). In other words, the zeros are the roots of the numerator polynomial and the poles of H(z) for finite values of z are the roots of the denominator polynomial.
 
@@ -193,8 +196,8 @@ hold off;
 
 <p text-align="justify">
 
- Here we use the following formula to determine the z-transform of the signal and vpa(x_z,5) converts the result of the Z-transform to a numeric form with 5 significant digits. After that the code is user define to find out the index and the zeroth position ,and then find out the poles and zeros by the allowed formula
-
+Here we use the following formula to determine the z-transform of the signal and vpa(x_z,5) converts the result of the Z-transform to a numeric form with 5 significant digits. After that the code is user define to find out the index and the zeroth position ,and then find out the poles and zeros by the allowed formula.
+ 
 
 </p>
  
