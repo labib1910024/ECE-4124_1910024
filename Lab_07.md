@@ -67,7 +67,7 @@ ylabel('Amplitude');
 <p align="center">
 
  
- <img  width="254px" alt="image" src="https://github.com/user-attachments/assets/a7cef53d-a2dd-4d38-bb73-554ee854c6dd">
+ <img   alt="image" src="https://github.com/user-attachments/assets/a7cef53d-a2dd-4d38-bb73-554ee854c6dd">
 
 
 </p>
