@@ -1,9 +1,9 @@
 
-**6.1. Experiment No. :** 06
+**7.1. Experiment No. :** 07
 
-**6.2. Experiment Name :**  Z- transform ,inverse transform , poles and zeros by using MATLAB.
+**7.2. Experiment Name :**  Z- transform ,inverse transform , poles and zeros by using MATLAB.
 
-**6.3. Theory :**
+**7.3. Theory :**
 
 <p text-align="justify">
   
@@ -12,9 +12,9 @@
 
 
 
-**6.4. MATLAB Z-Transform representation :**
+**7.4. MATLAB Z-Transform representation :**
 
-**6.4.1. Z-Transform  and Inverse transform of a Signal :**
+**7.4.1. Z-Transform  and Inverse transform of a Signal :**
 
 **Input :**
 
@@ -24,23 +24,10 @@ clear all;
 close all;
 
  
-x = [1, 2, 5, 6, 7]; 
-n = 0:4;           
-syms z ;      
-X_z = 0;
-
-for i = 1:length(x) 
-    X_z = X_z + x(i) * z^(-n(i)); 
-end 
-
-X_z = simplify(X_z); 
-disp('Z-transform of x[n]:'); 
-disp(X_z); 
 
 
-x_n = iztrans(X_z, z, n); 
-disp('Inverse Z-transform:'); 
-disp(x_n);
+
+
 
 ```
 
@@ -55,7 +42,7 @@ disp(x_n);
 </p>
 
 
-**6.5. Discussion :**
+**7.5. Discussion :**
 
 <p text-align="justify">
 
