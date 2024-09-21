@@ -12,9 +12,7 @@
 
 
 
-**7.4. MATLAB Z-Transform representation :**
-
-**7.4.1. Z-Transform  and Inverse transform of a Signal :**
+**7.4. MATLAB Low pass filter representation using hamming window method :**
 
 **Input :**
 
