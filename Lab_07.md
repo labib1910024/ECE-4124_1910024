@@ -23,21 +23,19 @@ clc;
 clear all;
 close all;
 
-% Parameters
-fs = 1000;  % Sampling frequency (Hz)
-f_cutoff = 150;  % Cutoff frequency for the low-pass filter (Hz)
-N = 50;  % Filter order (adjust as necessary)
+fs = 1000; 
+f_cutoff = 150;  
+N = 50;  
 
-% Create a noisy signal (example)
-t = 0:1/fs:1;  % Time vector (1 second)
-signal = sin(2*pi*100*t);  % Original signal (100 Hz sine wave)
-noisy_signal = signal + 0.5*randn(size(t));  % Add Gaussian noise
+t = 0:1/fs:1;  
+signal = sin(2*pi*100*t); 
+noisy_signal = signal + 0.5*randn(size(t));  
 
-% Design the low-pass FIR filter using the Hamming window
-normalized_cutoff = f_cutoff/(fs/2);  % Normalize cutoff frequency (0 to 1 scale)
+
+normalized_cutoff = f_cutoff/(fs/2);  
 b = fir1(N, normalized_cutoff, 'low', hamming(N+1));
 
-% Apply the filter to the noisy signal
+
 filtered_signal = filter(b, 1, noisy_signal);
 
 % Plot the results
