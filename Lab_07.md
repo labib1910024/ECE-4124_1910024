@@ -6,7 +6,8 @@
 **7.3. Theory :**
 
 <p text-align="justify">
-  
+ An electric filter is a circuit that passes certain frequencies and rejects other frequencies. The simplest filters consist of two elements, RC and RL. A lowpass filter passes low frequencies and rejects high frequencies. A highpasss filter passes high frequencies and rejects low frequencies.
+In signal processing, a finite impulse response (FIR) filter is a filter whose impulse response is of finite duration, because it settles to zero in finite time.
 
 </p>
 
