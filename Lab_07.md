@@ -16,6 +16,7 @@ A Hamming window is a windowing function used in signal processing to concentrat
 
 
 
+
 **7.4. MATLAB Low pass filter representation using hamming window method :**
 
 **Input :**
