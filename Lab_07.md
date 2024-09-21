@@ -82,7 +82,7 @@ ylabel('Amplitude');
 
 <p text-align="justify">
 
-Here we are using hamming window method for designing a lowpass filter. First of all we take a signal and using randn() function for adding a random number for creating a noise signal. After that we use the function for famming window for obtaining the low pass filter.
+Here we are using hamming window method for designing a lowpass filter. First of all we take a signal and using randn() function for adding a random number for creating a noise signal. After that we use the function for famming window for obtaining the low pass filter. Here we plotting three graphs for different signals.
  
 
 </p>
