@@ -1,7 +1,7 @@
 
 **7.1. Experiment No. :** 07
 
-**7.2. Experiment Name :**  Z- transform ,inverse transform , poles and zeros by using MATLAB.
+**7.2. Experiment Name :**  Obtaining a linear phase FIR filter using Hamming/other types of window
 
 **7.3. Theory :**
 
