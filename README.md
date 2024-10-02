@@ -43,6 +43,7 @@ Course Title: Digital Signal Processing Sessional</br></br></br>
 |05.|Z- transform ,poles and zeros by using MATLAB.|[Lab Report-05](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_05.md)|
 |06.|Z- transform ,inverse transform ,poles and zeros by using MATLAB.|[Lab Report-06](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_06.md)|
 |07.|Obtaining a linear phase FIR filter using Hamming/other types of window.|[Lab Report-07](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_07.md)|
+|08.|Obtaining a linear phase FIR filter using Hamming/other types of window.|[Lab Report-08](https://github.com/labib1910024/ECE-4124_1910024/blob/main/Lab_08.md)|
 
 
 
