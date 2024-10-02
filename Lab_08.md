@@ -1,23 +1,18 @@
 
-**7.1. Experiment No. :** 07
+**8.1. Experiment No. :** 07
 
-**7.2. Experiment Name :**  Obtaining a linear phase FIR filter using Hamming/other types of window
+**8.2. Experiment Name :**  Obtaining a linear phase FIR filter using Hamming/other types of window
 
-**7.3. Theory :**
+**83. Theory :**
 
 <p text-align="justify">
- An electric filter is a circuit that passes certain frequencies and rejects other frequencies. The simplest filters consist of two elements, RC and RL. A lowpass filter passes low frequencies and rejects high frequencies. A highpasss filter passes high frequencies and rejects low frequencies.
  
-In signal processing, a finite impulse response (FIR) filter is a filter whose impulse response is of finite duration, because it settles to zero in finite time.
-
-A Hamming window is a windowing function used in signal processing to concentrate the energy of a frame on the spectrum, reducing signal edge disparity by multiplying each frame with this specific function.
-
 </p>
 
 
 
 
-**7.4. MATLAB Low pass filter representation using hamming window method :**
+**8.4. MATLAB Low pass filter representation using hamming window method :**
 
 **Input :**
 
