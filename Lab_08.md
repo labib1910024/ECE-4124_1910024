@@ -1,9 +1,9 @@
 
-**8.1. Experiment No. :** 07
+**8.1. Experiment No. :** 08
 
-**8.2. Experiment Name :**  Obtaining a linear phase FIR filter using Hamming/other types of window
+**8.2. Experiment Name :**  Discussion about FFT,IFFT,DFT,IDFT,DTFT,IDTFT.
 
-**83. Theory :**
+**8.3. Theory :**
 
 <p text-align="justify">
  
