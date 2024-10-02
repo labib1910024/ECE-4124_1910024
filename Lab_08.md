@@ -76,15 +76,55 @@ grid on;
 **Input :**
 
 ```matlab
+% Define the discrete signal
+n = 0:7;  % Time index
+x = [1 2 3 4 4 3 2 1];  % Signal
+N = length(x);  % Number of points in the signal
 
+% Manually compute the DFT
+X_dft_manual = zeros(1, N);  % Initialize the DFT result
+
+for k = 0:N-1
+    for n = 0:N-1
+        X_dft_manual(k+1) = X_dft_manual(k+1) + x(n+1) * exp(-1j * 2 * pi * k * n / N);
+    end
+end
+
+% Inverse DFT (IDFT)
+x_idft_manual = zeros(1, N);  % Initialize IDFT result
+
+for n = 0:N-1
+    for k = 0:N-1
+        x_idft_manual(n+1) = x_idft_manual(n+1) + (1/N) * X_dft_manual(k+1) * exp(1j * 2 * pi * k * n / N);
+    end
+end
+
+% Compute the magnitude and phase from the manual DFT
+amplitude_dft_manual = abs(X_dft_manual);
+phase_dft_manual = angle(X_dft_manual);
+
+% Plot amplitude and phase for manual DFT
+figure;
+subplot(2,1,1);
+stem(0:N-1, amplitude_dft_manual, 'filled');
+title('Amplitude Spectrum (Manual DFT)');
+xlabel('Frequency index (k)');
+ylabel('Magnitude');
+grid on;
+
+subplot(2,1,2);
+stem(0:N-1, phase_dft_manual, 'filled');
+title('Phase Spectrum (Manual DFT)');
+xlabel('Frequency index (k)');
+ylabel('Phase (radians)');
+grid on;
 ```
 
 **Output :**
 
 <p align="center">
 
- <img  width="500" alt="image" src="https://github.com/user-attachments/assets/a7cef53d-a2dd-4d38-bb73-554ee854c6dd">
-
+ <img  width="500" alt="image" src="https://github.com/user-attachments/assets/ba413691-4575-4a26-b9d4-67309e5ddf59">
 </p>
 
 
@@ -92,14 +132,66 @@ grid on;
 **Input :**
 
 ```matlab
+% Define the discrete signal
+n = 0:7;  % Time index
+x = [1 2 3 4 4 3 2 1];  % Signal
+N = length(x);  % Length of the signal
 
+% Define frequency grid for DTFT
+w = linspace(-pi, pi, 1000);  % Frequency axis (1000 points between -π and π)
+
+% Compute the DTFT
+X_dtft = zeros(1, length(w));  % Initialize the DTFT result
+for i = 1:length(w)
+    for n = 0:N-1
+        X_dtft(i) = X_dtft(i) + x(n+1) * exp(-1j * w(i) * n);
+    end
+end
+
+% Compute the magnitude and phase from the DTFT
+amplitude_dtft = abs(X_dtft);
+phase_dtft = angle(X_dtft);
+
+% Plot the DTFT amplitude spectrum
+figure;
+subplot(3,1,1);
+plot(w/pi, amplitude_dtft);
+title('Amplitude Spectrum (DTFT)');
+xlabel('Normalized Frequency (\times \pi rad/sample)');
+ylabel('Magnitude');
+grid on;
+
+% Plot the DTFT phase spectrum
+subplot(3,1,2);
+plot(w/pi, phase_dtft);
+title('Phase Spectrum (DTFT)');
+xlabel('Normalized Frequency (\times \pi rad/sample)');
+ylabel('Phase (radians)');
+grid on;
+
+% IDTFT (Reconstruction)
+x_idtft = zeros(1, N);  % Initialize the IDTFT result
+dw = w(2) - w(1);  % Frequency step size
+for n = 0:N-1
+    for i = 1:length(w)
+        x_idtft(n+1) = x_idtft(n+1) + (1/(2*pi)) * X_dtft(i) * exp(1j * w(i) * n) * dw;
+    end
+end
+
+% Plot the reconstructed signal using IDTFT
+subplot(3,1,3);
+stem(0:N-1, real(x_idtft), 'filled');
+title('Reconstructed Signal (using IDTFT)');
+xlabel('Time index (n)');
+ylabel('Amplitude');
+grid on;
 ```
 
 **Output :**
 
 <p align="center">
 
- <img  width="500" alt="image" src="https://github.com/user-attachments/assets/a7cef53d-a2dd-4d38-bb73-554ee854c6dd">
+ <img  width="500" alt="image" src="https://github.com/user-attachments/assets/63e21e63-f0f4-423d-981d-94cc04fc7cb1">
 
 </p>
 
