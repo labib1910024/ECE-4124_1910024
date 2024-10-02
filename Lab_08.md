@@ -5,7 +5,20 @@
 
 **8.3. Theory :**
 <p text-align="justify">
+
+ FFT: An optimized algorithm used to compute the Discrete Fourier Transform (DFT) more efficiently. It speeds up the process of transforming data from the time domain to the frequency domain by reducing the number of computations needed.
  
+IFFT: The reverse process of FFT, used to convert frequency-domain data back into its original time-domain form.
+
+DFT: A mathematical technique used to transform a finite-length sequence of discrete time-domain data into its frequency-domain representation. The DFT decomposes a sequence of values into components of different frequencies.
+
+IDFT: The inverse of the DFT, converting the frequency-domain data back into the time-domain sequence. This process reconstructs the original data from its frequency components.
+
+DTFT: A Fourier transform used to analyze discrete-time signals, providing a continuous frequency representation of a discrete-time sequence. Unlike DFT, DTFT can handle sequences of infinite length and gives a continuous spectrum.
+
+IDTFT: The inverse of DTFT, used to recover the original discrete-time signal from its continuous frequency representation. This operation allows for reconstructing the time-domain signal from its frequency-domain description.
+
+
 </p>
 
 
@@ -204,7 +217,7 @@ grid on;
 
 <p text-align="justify">
 
- 
+Here we use a discrete signal. MATLAB provides built-in functions fft and ifft to compute the FFT and IFFT respectively. These functions are highly optimized for performance.MATLAB doesn't explicitly have a separate dft function because fft performs the same task efficiently. However, we can manually compute DFT and IDFT using the basic formulae.The DTFT can be approximated using the FFT over a large number of points.Sometimes we use fft functions for dft MATLAB doesn’t provide a direct dtft function, but we can implement it by evaluating the Fourier Transform over a dense set of frequency points.
 
 </p>
  
