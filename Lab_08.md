@@ -12,7 +12,9 @@
 
 
 **8.4. MATLAB Low pass filter representation using hamming window method :**
+
 **8.4.1. FFT & IFFT :**
+
 **Input :**
 
 ```matlab
@@ -73,6 +75,7 @@ grid on;
 
 
 **8.4.2. DFT & IDFT :**
+
 **Input :**
 
 ```matlab
@@ -129,6 +132,7 @@ grid on;
 
 
 **8.4.3. DTFT & IDTFT :**
+
 **Input :**
 
 ```matlab
