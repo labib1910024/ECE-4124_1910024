@@ -17,44 +17,6 @@
 **Input :**
 
 ```matlab
-clc;
-clear all;
-close all;
-
-fs = 1000; 
-f_cutoff = 150;  
-N = 50;  
-
-t = 0:1/fs:1;  
-signal = sin(2*pi*100*t); 
-noisy_signal = signal + 0.5*randn(size(t));  
-
-
-normalized_cutoff = f_cutoff/(fs/2);  
-b = fir1(N, normalized_cutoff, 'low', hamming(N+1));
-
-
-filtered_signal = filter(b, 1, noisy_signal);
-
-% Plot the results
-figure;
-subplot(3,1,1);
-plot(t, signal);
-title('Original Signal');
-xlabel('Time (s)');
-ylabel('Amplitude');
-
-subplot(3,1,2);
-plot(t, noisy_signal);
-title('Noisy Signal');
-xlabel('Time (s)');
-ylabel('Amplitude');
-
-subplot(3,1,3);
-plot(t, filtered_signal);
-title('Filtered Signal (FIR with Hamming Window)');
-xlabel('Time (s)');
-ylabel('Amplitude');
 
 
 
@@ -73,11 +35,10 @@ ylabel('Amplitude');
 </p>
 
 
-**7.5. Discussion :**
+**8.5. Discussion :**
 
 <p text-align="justify">
 
-Here we are using hamming window method for designing a lowpass filter. First of all we take a signal and using randn() function for adding a random number for creating a noise signal. After that we use the function for famming window for obtaining the low pass filter. Here we plotting three graphs for different signals.
  
 
 </p>
